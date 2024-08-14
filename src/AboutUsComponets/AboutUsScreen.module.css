@@ -1,0 +1,32 @@
+.container {
+  /* Add container styles here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.tagline {
+  padding: 20px;
+  color: white; 
+  font-size: 1.2rem; /* Example font size */
+  border-radius: 10px; 
+  
+}
+
+.fullscreen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better text readability */
+}
+
+.text1 {
+  margin: 100px;
+}
+

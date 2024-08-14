@@ -1,0 +1,17 @@
+.container {
+    height: 100vh; /* Example style */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tagline {
+    height: 100%; /* Example style */
+    width: 100%; /* Example style */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Example style */
+    font-size: 80px;
+    font-weight: bold;
+  }

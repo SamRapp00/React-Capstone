@@ -1,0 +1,41 @@
+.header {
+  background-color: black;
+  color: white;
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoStrip {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.logoImage {
+  height: 75px; /* Adjust the size as needed */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* Add space between the nav links */
+  width: 100%; /* Ensure the nav takes full width */
+  max-width: 1200px; /* Limit the max width for better appearance */
+  padding: 10px 20px; /* Add padding for spacing */
+  margin-top: 1px; /* Adjust the top margin as needed */
+}
+
+.navLink {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 33px; /* Increase the font size */
+  padding: 10px; /* Add padding for better click area */
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
